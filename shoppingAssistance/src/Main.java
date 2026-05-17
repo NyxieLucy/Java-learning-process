@@ -28,9 +28,6 @@ public class Main {
             double total1 = price * quantity;
             total += total1;
 
-
-
-
         }
         System.out.println("you're buying: " + itemList);
 
