@@ -64,7 +64,7 @@ public class Main {
         System.out.print("calculating");
         waitingLoop();
         double bodyMass = weight / Math.pow(height / 100, 2);
-        System.out.printf("\nyour body mass is: %.2f%n", bodyMass);
+        System.out.printf("\nyour body mass is: %.2f%n", bodyMass * 703);
     }
     static void calcBMmetric(Scanner inp){
         System.out.println("okay then, metrics it is");
