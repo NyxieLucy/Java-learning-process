@@ -63,7 +63,7 @@ public class Main {
         // yeah i just learned how to use the math library
         System.out.print("calculating");
         waitingLoop();
-        double bodyMass = weight / Math.pow(height / 100, 2);
+        double bodyMass = weight / Math.pow(height, 2);
         System.out.printf("\nyour body mass is: %.2f%n", bodyMass * 703);
     }
     static void calcBMmetric(Scanner inp){
@@ -91,7 +91,6 @@ public class Main {
             char dot = '.';
             try {
                 System.out.printf("%s",dot);
-                dot++;
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
